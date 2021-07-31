@@ -1,0 +1,17 @@
+@import 'Valiable.scss';
+.align-center {
+    display: flex;
+    align-items: center;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-group {
+    margin: 20px 0;
+}
+a {
+    text-decoration: none !important;
+    color: $text--Color ;
+}

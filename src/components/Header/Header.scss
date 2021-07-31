@@ -1,0 +1,14 @@
+@import '../Valiable.scss';
+
+.header {
+    background-color: #fffe00;
+
+    &__logo {
+        font-weight: bold;
+    }
+    &__link {
+        a:hover {
+            color: $primary;
+        }
+    }
+}
