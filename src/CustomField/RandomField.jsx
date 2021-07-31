@@ -10,6 +10,7 @@ function RandomField(props) {
   const {errors, touched}= form
   const showErrors = errors[name] && touched[name]
   const onImageUrlChange = (newUrl) => {
+    // if(value === newUrls)
     form.setFieldValue(name, newUrl);
   };
   return (

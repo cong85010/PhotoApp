@@ -8,9 +8,10 @@ function Banner(props) {
     ? { backgroundImage: ` url(${backGroundUrl})` }
     : {};
   return (
-      <section className='banner flex-center' style={bannerStyle}>
+      <div className='banner flex-center' style={bannerStyle}>
           <h1 className='banner__title'>{title}</h1>
-      </section>
+          asd
+      </div>
   );
 }
 

@@ -17,8 +17,6 @@ function RandomPhoto(props) {
   const url = 
     `https://source.unsplash.com/${width}x${height}/?${labelCatagory}`
   
-
-
   const handleRandomClick = async () => {
     onImageUrlChange(url);
 
